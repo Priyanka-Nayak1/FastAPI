@@ -39,7 +39,10 @@ venv\Scripts\activate
 source venv/bin/activate
 
 3️⃣ Install dependencies
+
 pip install -r requirements.txt
 
 4️⃣ Run the app
+
 uvicorn main:app --reload
+
