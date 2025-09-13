@@ -45,7 +45,4 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends()):
     return {"access_token": access_token, "token_type": "bearer"}
 
 
-# Get current user (protected route)
-@router.get("/me")
-async def read_users_me(current_user=Depends(get_current_user)):
-    return {"username": current_user.username}
+
