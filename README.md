@@ -9,6 +9,10 @@ It uses **MongoDB** as the database, **JWT tokens** for authentication, and **Mo
 - 🔑 User registration & login with JWT authentication
 - 📂 CRUD operations on employees
 - 🔒 Protected routes for admin-only operations
+    1. To Check it after running the file simply register yourself.
+    2. Then on the top of fastapi swagger page there is a lock icon.
+    3. Click that lock icon and provide your username and password and click on authorize.
+    4. Now you can do all the authorized operations like create, update, delete.
 - 🛠️ Employee self-service (view own Profile)
 
 ---
